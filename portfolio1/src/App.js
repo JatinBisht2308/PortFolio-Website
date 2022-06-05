@@ -1,4 +1,5 @@
-import React from "react";
+import logo from './assets/log.png';
+import './App.css';
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 import Nav from "./components/navbar/Nav";
@@ -8,10 +9,9 @@ import Testimonial from "./components/testimonials/Testimonial";
 import About from "./components/about/About";
 import Experience from "./components/experience/Experience";
 import Contact from "./components/contact/Contact";
-
-const App = () => {
+function App() {
   return (
-    <div>
+    <div className="App">
       <Header />
       <Nav />
       <About />
@@ -23,6 +23,6 @@ const App = () => {
       <Footer />
     </div>
   );
-};
+}
 
 export default App;
