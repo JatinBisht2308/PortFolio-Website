@@ -96,17 +96,17 @@
   .about__cards {
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
-    margin: 5vw;
+    /* margin: 5vw; */
   }
   .about_content {
     text-align: center;
     align-items: center;
   }
   .about__content p {
-      text-align: center;
-    margin: 1.5rem 5vw;
+      text-align: left;
+    margin: 1.5rem;
   }
   .about__content > .btn {
-    margin-left: 37%;
+    margin-left:1em;
   }
 }

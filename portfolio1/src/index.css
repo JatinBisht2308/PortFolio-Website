@@ -16,7 +16,7 @@
   /* variable for the colors */
 
   --color-bg: #1f1f38;
-  --color-bg-variant: #2c2c6c;
+  --color-bg-variant: #2d2d62;
   --color-primary: #4db5ff;
   --color-primary-variant: rgba(77, 181, 255, 0.4);
   --color-white: #fff;
@@ -25,7 +25,7 @@
   /* variable for the container */
   --container-width-lg: 75%;
   --container-width-md: 86%;
-  --container-width-ms: 90%;
+  --container-width-sm: 90%;
 
   /* variable for transition */
   --transition: all 400ms ease;
@@ -68,7 +68,6 @@ h1 {
 
 section {
   margin-top: 8rem;
-  height: 100vh;
 }
 
 section > h2,

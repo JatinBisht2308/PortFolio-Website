@@ -26,7 +26,7 @@ const About = () => {
             <article className="about__card">
               <TbStack3 className="about__icon" />
               <h5>Tech Stack</h5>
-              <small>10+ Technolgies known</small>
+              <small>10+ Technologies</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
