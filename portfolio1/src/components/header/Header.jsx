@@ -2,23 +2,52 @@ import React from "react";
 import "./Header.css";
 import CTA from "./CTA";
 import ME from "../../assets/me.png";
-import HeaderSocials from './HeaderSocials';
+import HeaderSocials from "./HeaderSocials";
+import "animate.css";
+import AOS from "aos";
 const Header = () => {
+  AOS.init({
+    duration: 5000,
+  });
   return (
-      <header>
+    <header>
       <div className="container header__container">
-        <h5>Hello I'm</h5>
-        <h1>Jatin Bisht</h1>
-        <h5 className="text-light">Full Stack Developer</h5>
+        <h5 data-aos="flip-down" data-aos-duration="1000">
+          Hello I'm
+        </h5>
+        <h1 data-aos="zoom-in" data-aos-duration="1000">
+          Jatin Bisht
+        </h1>
+        <h5
+          className="text-light"
+          data-aos="fade-down"
+          data-aos-delat="350"
+          data-aos-duration="1000"
+        >
+          Full Stack Developer
+        </h5>
         <CTA />
         <HeaderSocials />
-        <div className="me">
-          <img src={ME} alt="" />
+        <div
+          className="me"
+          data-aos="fade-down"
+          data-aos-duration="1000"
+          data-aos-delay="100"
+        >
+          <img
+            src={ME}
+            alt=""
+            data-aos="fade-up"
+            data-aos-duration="1100"
+            data-aos-delay="300"
+          />
         </div>
-        
-        <a href="#contact" className="scroll__down">Scroll Down</a>
+
+        <a href="#contact" className="scroll__down">
+          Scroll Down
+        </a>
       </div>
-      </header>
+    </header>
   );
 };
 

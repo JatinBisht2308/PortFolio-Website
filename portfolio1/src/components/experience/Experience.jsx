@@ -1,7 +1,10 @@
 import React from "react";
 import "./Experience.css";
 import { BsPatchCheckFill } from "react-icons/bs";
+import "animate.css";
+import AOS from "aos";
 const Experience = () => {
+  AOS.init();
   return (
     <section id="experience">
       <h5>What Skills I Have</h5>
@@ -9,7 +12,11 @@ const Experience = () => {
 
       <div className="container experience__container">
         {/* 🔥🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 Frontend 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥   */}
-        <div className="experience__frontend">
+        <div
+          className="experience__frontend"
+          data-aos="fade-right"
+          data-aos-duration="2000"
+        >
           <h3>Frontend Development</h3>
           <div className="experience__content">
             <article className="experience__details">
@@ -23,7 +30,7 @@ const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>CSS</h4>
-                <small className="text-light">Intermidiate</small>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
@@ -36,7 +43,7 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>Tailwind</h4>
+                <h4>Bootstrap</h4>
                 <small className="text-light">Beginner</small>
               </div>
             </article>
@@ -59,7 +66,10 @@ const Experience = () => {
 
         {/* 🔥🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 Backend 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥   */}
 
-        <div className="experience__backend">
+        <div className="experience__backend"
+         data-aos="fade-left"
+         data-aos-duration="2000"
+        >
           <h3>Backend Development</h3>
           <div className="experience__content">
             <article className="experience__details">
