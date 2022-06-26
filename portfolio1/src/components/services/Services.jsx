@@ -48,8 +48,8 @@ const Services = () => {
         {/* END OF UI/UX */}
         <article className="service"
          data-aos="slide-up"
-         data-aos-duration="1500"
-         data-aos-delay="1000">
+         data-aos-duration="1000"
+         data-aos-delay="500">
           <div className="service__head">
             <h3>Frontend Development</h3>
           </div>
