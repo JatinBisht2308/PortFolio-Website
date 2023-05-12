@@ -4,8 +4,8 @@ import IMG1 from "../../assets/portfolio1.jpg";
 import IMG2 from "../../assets/portfolio2.jpg";
 import IMG3 from "../../assets/portfolio3.jpg";
 import IMG4 from "../../assets/portfolio4.jpg";
-import IMG5 from "../../assets/portfolio5.png";
-import IMG6 from "../../assets/portfolio6.jpg";
+import IMG5 from "../../assets/portfolio5.jpg";
+import IMG6 from "../../assets/portfolio6.jpeg";
 import "animate.css";
 import AOS from "aos";
 
@@ -71,17 +71,17 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG3} alt="" />
           </div>
-          <h3>Crypto Currency Scrapper</h3>
+          <h3>Virtual Health Care </h3>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com/JatinBisht2308/Crypto_Currency_Scrapper-JB"
+              href="https://github.com/JatinBisht2308/Trafalgar-Jatin.git"
               className="btn"
               target="_blank"
             >
               GitHub
             </a>
             <a
-              href="https://task1-byjatin-atkoders.netlify.app/"
+              href="https://trafalgar-by-jatin.netlify.app/"
               className="btn btn-primary"
               target="_blank"
             >
@@ -94,21 +94,21 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG4} alt="" />
           </div>
-          <h3>Player's Performance Scrapper</h3>
+          <h3>Ticketless Booking App</h3>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com/JatinBisht2308/ESPN_SCRAPPER"
+              href="https://github.com/JatinBisht2308/MonuMate-App.git"
               className="btn"
               target="_blank"
             >
               GitHub
             </a>
             <a
-              href="https://task1-byjatin-atkoders.netlify.app/"
+              href="https://github.com/JatinBisht2308/MonuMate-App.git"
               className="btn btn-primary"
               target="_blank"
             >
-              Live Demo
+              Not Live
             </a>
           </div>
         </article>
@@ -117,17 +117,17 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG5} alt="" />
           </div>
-          <h3>Hackerrank Automation</h3>
+          <h3>Monumate Dashboard</h3>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com/JatinBisht2308/HackerRank_Automation-JB"
+              href="https://github.com/JatinBisht2308/Monumate-Dashboard.git"
               className="btn"
               target="_blank"
             >
               GitHub
             </a>
             <a
-              href="https://task1-byjatin-atkoders.netlify.app/"
+              href="https://monumate-dashboard.netlify.app/"
               className="btn btn-primary"
               target="_blank"
             >
@@ -140,17 +140,17 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG6} alt="" />
           </div>
-          <h3>Linkedin Automation</h3>
+          <h3>Koders Portfolio</h3>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com/JatinBisht2308/Linkedin_Automation-JB"
+              href="https://github.com/JatinBisht2308/Koders-Portfolio.git"
               className="btn"
               target="_blank"
             >
               GitHub
             </a>
             <a
-              href="https://task1-byjatin-atkoders.netlify.app/"
+              href="https://portfolio.koders.in/"
               className="btn btn-primary"
               target="_blank"
             >
