@@ -29,7 +29,12 @@ header {
   left: 0;
   bottom: 3rem;
 }
-
+.header__socials > a {
+  color: var(--color-primary);
+}
+.header__socials > a:hover {
+  color: var(--color-primary-light);
+}
 .header__socials::after {
   content: "";
   width: 1px;
@@ -39,7 +44,7 @@ header {
 
 /* ====================== ME ==================== */
 .me {
-  background: linear-gradient(var(--color-primary),transparent);
+  background: linear-gradient(var(--color-primary), transparent);
   width: 22rem;
   height: 30rem;
   position: absolute;
@@ -49,7 +54,7 @@ header {
   overflow: hidden;
   padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
-.me > img{
+.me > img {
   margin-top: -16px;
 }
 
@@ -58,25 +63,28 @@ header {
   position: absolute;
   right: -2.3rem;
   bottom: 5rem;
-  transform:rotate(90deg);
+  transform: rotate(90deg);
   font-weight: 300;
   font-size: 0.9rem;
+  color: var(--color-primary);
 }
-
+.scroll__down:hover {
+  color: var(--color-primary-light);
+}
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~For tablets ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-@media screen and (max-width: 1024px){
-    header{
-        height: 74vh;
-    }
+@media screen and (max-width: 1024px) {
+  header {
+    height: 74vh;
+  }
 }
 
- /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~ For mobile ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
- @media screen and (max-width: 600px){
-   header{
-       height: 100vh;
-   }
-   .header__socials, .scroll__down{
-       display: none;
-       
-   }
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~ For mobile ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media screen and (max-width: 600px) {
+  header {
+    height: 100vh;
+  }
+  .header__socials,
+  .scroll__down {
+    display: none;
+  }
 }
