@@ -44,7 +44,7 @@ const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Bootstrap</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
@@ -57,7 +57,7 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>JSwing</h4>
+                <h4>Tailwind css</h4>
                 <small className="text-light">Intermidiate</small>
               </div>
             </article>
@@ -66,16 +66,17 @@ const Experience = () => {
 
         {/* 🔥🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 Backend 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥   */}
 
-        <div className="experience__backend"
-         data-aos="fade-left"
-         data-aos-duration="2000"
+        <div
+          className="experience__backend"
+          data-aos="fade-left"
+          data-aos-duration="2000"
         >
           <h3>Backend Development</h3>
           <div className="experience__content">
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>Java</h4>
+                <h4>Java Core</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
@@ -105,6 +106,13 @@ const Experience = () => {
               <div>
                 <h4>JavaScript</h4>
                 <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Firebase</h4>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
           </div>

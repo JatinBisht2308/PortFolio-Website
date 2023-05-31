@@ -32,7 +32,7 @@ const About = () => {
             >
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>1+ Years Working</small>
+              <small>9 Months Working</small>
             </article>
             <article
               className="about__card"
@@ -42,7 +42,7 @@ const About = () => {
             >
               <TbStack3 className="about__icon" />
               <h5>Tech Stack</h5>
-              <small>10+ Technologies</small>
+              <small>7+ Technologies</small>
             </article>
             <article
               className="about__card"
