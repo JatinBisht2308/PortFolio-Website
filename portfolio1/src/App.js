@@ -2,7 +2,6 @@ import './App.css';
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 import Nav from "./components/navbar/Nav";
-import Services from "./components/services/Services";
 import Portfolio from "./components/portfolio/Portfolio";
 import About from "./components/about/About";
 import Experience from "./components/experience/Experience";
@@ -14,7 +13,6 @@ function App() {
       <Nav />
       <About />
       <Experience />
-      <Services />
       <Portfolio />
       <Contact />
       <Footer />
