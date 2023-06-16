@@ -27,24 +27,28 @@ const Portfolio = () => {
           </div>
           <h3>Lahar Events Website</h3>
           <div className="portfolio__item-cta">
-            <a
-              href="https://github.com/JatinBisht2308/Task1-Koders"
+            <a href="https://github.com/JatinBisht2308/Task1-Koders"
               className="btn"
               target="_blank"
+              rel="noreferrer"
             >
               GitHub
             </a>
             <a
-              href="https://task1-byjatin-atkoders.netlify.app/"
+              href="https://laharevents.in/"
               className="btn btn-primary"
               target="_blank"
+              rel="noreferrer"
             >
               Live Demo
             </a>
           </div>
         </article>
-        <article className="portfolio__item"
-        data-aos="fade-up" data-aos-delay="400">
+        <article
+          className="portfolio__item"
+          data-aos="fade-up"
+          data-aos-delay="400"
+        >
           <div className="portfolio__item-image">
             <img src={IMG2} alt="" />
           </div>
@@ -54,20 +58,25 @@ const Portfolio = () => {
               href="https://github.com/JatinBisht2308/PortFolio-Website/tree/main/portfolio1"
               className="btn"
               target="_blank"
+              rel="noreferrer"
             >
               GitHub
             </a>
             <a
-              href="https://task1-byjatin-atkoders.netlify.app/"
+              href="https://jatin-bisht-portfolio.netlify.app/"
               className="btn btn-primary"
               target="_blank"
+              rel="noreferrer"
             >
               Live Demo
             </a>
           </div>
         </article>
-        <article className="portfolio__item"
-        data-aos="fade-up" data-aos-delay="600">
+        <article
+          className="portfolio__item"
+          data-aos="fade-up"
+          data-aos-delay="600"
+        >
           <div className="portfolio__item-image">
             <img src={IMG3} alt="" />
           </div>
@@ -77,6 +86,7 @@ const Portfolio = () => {
               href="https://github.com/JatinBisht2308/Trafalgar-Jatin.git"
               className="btn"
               target="_blank"
+              rel="noreferrer"
             >
               GitHub
             </a>
@@ -84,13 +94,17 @@ const Portfolio = () => {
               href="https://trafalgar-by-jatin.netlify.app/"
               className="btn btn-primary"
               target="_blank"
+              rel="noreferrer"
             >
               Live Demo
             </a>
           </div>
         </article>
-        <article className="portfolio__item"
-        data-aos="fade-up" data-aos-delay="200">
+        <article
+          className="portfolio__item"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
           <div className="portfolio__item-image">
             <img src={IMG4} alt="" />
           </div>
@@ -100,6 +114,7 @@ const Portfolio = () => {
               href="https://github.com/JatinBisht2308/MonuMate-App.git"
               className="btn"
               target="_blank"
+              rel="noreferrer"
             >
               GitHub
             </a>
@@ -107,13 +122,17 @@ const Portfolio = () => {
               href="https://github.com/JatinBisht2308/MonuMate-App.git"
               className="btn btn-primary"
               target="_blank"
+              rel="noreferrer"
             >
               Not Live
             </a>
           </div>
         </article>
-        <article className="portfolio__item"
-        data-aos="fade-up" data-aos-delay="400">
+        <article
+          className="portfolio__item"
+          data-aos="fade-up"
+          data-aos-delay="400"
+        >
           <div className="portfolio__item-image">
             <img src={IMG5} alt="" />
           </div>
@@ -123,6 +142,7 @@ const Portfolio = () => {
               href="https://github.com/JatinBisht2308/Monumate-Dashboard.git"
               className="btn"
               target="_blank"
+              rel="noreferrer"
             >
               GitHub
             </a>
@@ -130,13 +150,17 @@ const Portfolio = () => {
               href="https://monumate-dashboard.netlify.app/"
               className="btn btn-primary"
               target="_blank"
+              rel="noreferrer"
             >
               Live Demo
             </a>
           </div>
         </article>
-        <article className="portfolio__item"
-        data-aos="fade-up" data-aos-delay="600">
+        <article
+          className="portfolio__item"
+          data-aos="fade-up"
+          data-aos-delay="600"
+        >
           <div className="portfolio__item-image">
             <img src={IMG6} alt="" />
           </div>
@@ -146,6 +170,7 @@ const Portfolio = () => {
               href="https://github.com/JatinBisht2308/Koders-Portfolio.git"
               className="btn"
               target="_blank"
+              rel="noreferrer"
             >
               GitHub
             </a>
@@ -153,6 +178,7 @@ const Portfolio = () => {
               href="https://portfolio.koders.in/"
               className="btn btn-primary"
               target="_blank"
+              rel="noreferrer"
             >
               Live Demo
             </a>

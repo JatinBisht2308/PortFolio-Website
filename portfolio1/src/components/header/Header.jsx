@@ -5,6 +5,7 @@ import ME from "../../assets/me.png";
 import HeaderSocials from "./HeaderSocials";
 import "animate.css";
 import AOS from "aos";
+import Spline from '@splinetool/react-spline';
 const Header = () => {
   AOS.init({
     duration: 5000,
