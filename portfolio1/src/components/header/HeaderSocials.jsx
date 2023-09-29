@@ -13,7 +13,7 @@ const HeaderSocials = () => {
       data-aos-duration="1000"
     >
       <a
-        href="https://www.linkedin.com/in/jatin-bisht-ba62111bb/"
+        href="https://www.linkedin.com/in/jatinbisht2308/"
         target="_blank"
       >
         <BsLinkedin />

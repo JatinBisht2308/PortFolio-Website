@@ -42,14 +42,14 @@ const Footer = () => {
         </li>
       </ul>
       <div className="footer__socials">
-        <a href="https://www.linkedin.com/in/jatin-bisht-ba62111bb/">
+        <a href="https://www.linkedin.com/in/jatinbisht2308/">
           <BsLinkedin data-aos="fade-up" data-aos-delay="500" />
         </a>
         <a href="https://github.com/JatinBisht2308">
-          <FaGithub data-aos="fade-up" data-aos-delay="600"/>
+          <FaGithub data-aos="fade-up" data-aos-delay="600" />
         </a>
         <a href="https://www.youtube.com/channel/UCGiZyF5cM8BlDv0pia4ZBPA">
-          <FiYoutube data-aos="fade-up" data-aos-delay="700"/>
+          <FiYoutube data-aos="fade-up" data-aos-delay="700" />
         </a>
       </div>
 
