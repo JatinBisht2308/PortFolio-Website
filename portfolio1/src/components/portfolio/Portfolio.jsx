@@ -1,8 +1,8 @@
 import React from "react";
 import "./Portfolio.css";
-import IMG1 from "../../assets/portfolio1.jpg";
+import IMG1 from "../../assets/portfolio1.png";
 import IMG2 from "../../assets/portfolio2.jpg";
-import IMG3 from "../../assets/portfolio3.jpg";
+import IMG3 from "../../assets/portfolio3.jpeg";
 import IMG4 from "../../assets/portfolio4.jpg";
 import IMG5 from "../../assets/portfolio5.jpg";
 import IMG6 from "../../assets/portfolio6.jpeg";
@@ -25,9 +25,9 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG1} alt="" />
           </div>
-          <h3>Lahar Events Website</h3>
+          <h3>Quizera Quiz App</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com/JatinBisht2308/Task1-Koders"
+            <a href="https://github.com/JatinBisht2308/Quiz-App"
               className="btn"
               target="_blank"
               rel="noreferrer"
@@ -35,7 +35,7 @@ const Portfolio = () => {
               GitHub
             </a>
             <a
-              href="https://laharevents.in/"
+              href="https://creative-strudel-6b66a8.netlify.app/"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
@@ -80,10 +80,10 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG3} alt="" />
           </div>
-          <h3>Virtual Health Care </h3>
+          <h3>Tesla Clone Frontend</h3>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com/JatinBisht2308/Trafalgar-Jatin.git"
+              href="https://github.com/JatinBisht2308/Tesla"
               className="btn"
               target="_blank"
               rel="noreferrer"
@@ -91,7 +91,7 @@ const Portfolio = () => {
               GitHub
             </a>
             <a
-              href="https://trafalgar-by-jatin.netlify.app/"
+              href="https://jatin-tesla-clone.netlify.app/"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
