@@ -1,0 +1,45 @@
+.Hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 24px 32px;
+}
+.Hero > .left-hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    align-items: start;
+    width: 48%;
+    z-index: 10;
+
+}
+.Hero > .left-hero > .heading-text p{
+    font-size: 40px;
+    margin: 10px 0px;
+    font-weight: 500;
+}
+.Hero > .left-hero > .heading-text span{
+    font-size: 45px;
+    font-weight: 700;
+}
+.Hero > .left-hero > .hero-desc{
+    margin-top: 20px;
+}
+.Hero > .left-hero > .hero-desc > p{
+    color:#71717A;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 1px;
+}
+.Hero > .right-hero{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.Hero > .right-hero > img{
+    width: 100%;
+    height: auto;
+}
