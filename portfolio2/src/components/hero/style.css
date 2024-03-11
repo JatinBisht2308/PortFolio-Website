@@ -13,7 +13,7 @@
     align-items: start;
     width: 48%;
     z-index: 10;
-
+   position: relative;
 }
 .Hero > .left-hero > .heading-text p{
     font-size: 40px;
@@ -42,6 +42,10 @@
 .Hero > .right-hero > img{
     width: 100%;
     height: auto;
+}
+.left-hero .socials{
+ position: absolute;
+ top: 107%;
 }
 .socials .social-handle{
     display: flex;
