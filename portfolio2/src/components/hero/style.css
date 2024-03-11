@@ -43,3 +43,15 @@
     width: 100%;
     height: auto;
 }
+.socials .social-handle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 7px 10px;
+    transition: all 0.4s ease-in-out;
+}
+.socials .social-handle:hover{
+    background-color: black;
+}
