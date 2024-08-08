@@ -3,7 +3,8 @@ import "./Footer.css";
 import JB from "../../assets/logo.png";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
-import { FiYoutube } from "react-icons/fi";
+import { FaMediumM } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
 import "animate.css";
 import AOS from "aos";
 const Footer = () => {
@@ -48,8 +49,11 @@ const Footer = () => {
         <a href="https://github.com/JatinBisht2308">
           <FaGithub data-aos="fade-up" data-aos-delay="600" />
         </a>
-        <a href="https://www.youtube.com/channel/UCGiZyF5cM8BlDv0pia4ZBPA">
-          <FiYoutube data-aos="fade-up" data-aos-delay="700" />
+        <a href="https://leetcode.com/u/Jatin_Bisht">
+          <SiLeetcode  data-aos="fade-up" data-aos-delay="700" />
+        </a>
+        <a href="https://medium.com/@jatinbisht2308">
+          <FaMediumM  data-aos="fade-up" data-aos-delay="700" />
         </a>
       </div>
 

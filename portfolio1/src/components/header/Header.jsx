@@ -25,7 +25,7 @@ const Header = () => {
           data-aos-delat="350"
           data-aos-duration="1000"
         >
-          Front End Developer
+          Full Stack Developer
         </h5>
         <CTA />
         <HeaderSocials />
