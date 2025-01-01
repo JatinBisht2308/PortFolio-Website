@@ -50,7 +50,7 @@ const Hero = () => {
         <div className="hero-desc">
           <p>
             I'm Jatin Bisht, a seasoned full-stack developer with extensive
-            internship experience and a knack for crafting compelling user
+            experience and a knack for crafting compelling user
             interfaces.I excel in creating elegant solutions that seamlessly
             blend form and functionality. From frontend design to backend
             development, I approach each project with meticulous attention to
@@ -63,7 +63,7 @@ const Hero = () => {
           style={{
             display: "flex",
             width: "35%",
-            justifyContent: "space-between",
+            gap:"13px"
           }}
         >
           <div
