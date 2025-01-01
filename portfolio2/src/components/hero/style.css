@@ -1,3 +1,6 @@
+.Hero-outer{
+    padding: 0px 80px;
+}
 .Hero{
     display: flex;
     justify-content: space-between;
@@ -5,6 +8,7 @@
     width: 100%;
     padding: 24px 32px;
     margin-bottom: 120px;
+    background: white;
 }
 .Hero > .left-hero{
     display: flex;

@@ -34,7 +34,8 @@ const Hero = () => {
   };
   
   return (
-    <div className="Hero">
+    <div className="Hero-outer">
+<div className="Hero">
       <div className="left-hero">
         <div className="heading-text">
           <p>
@@ -145,6 +146,8 @@ const Hero = () => {
         <img src={HeroImage} alt="hero section a big person" />
       </div>
     </div>
+    </div>
+    
   );
 };
 

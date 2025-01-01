@@ -2,7 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 24px 32px;
+  padding: 24px 112px;
+  background: white;
 }
 .left-cont {
   display: flex;
@@ -61,7 +62,7 @@
   align-items: center;
   justify-content: center;
 }
-.right-cont > button {
+.right-cont  button {
   display: flex;
   height: 56px;
   padding: 16px 20px;
@@ -79,4 +80,7 @@
   background: #000;
   border-radius: 4px;
   cursor: pointer;
+}
+.right-cont > a{
+  text-decoration: none;
 }
