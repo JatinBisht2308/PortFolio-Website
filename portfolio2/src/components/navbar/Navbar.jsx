@@ -1,10 +1,17 @@
 import React from "react";
-import './style.css';
+import "./style.css";
 import Logo from "../../assets/mainLogo.svg";
 import Download from "../../assets/download.svg";
 import ResumeFile from "../../assets/Resume.pdf"; // Import the resume file
 
 const Navbar = () => {
+  const handleScrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <div className="Navbar">
       <div className="left-cont">
@@ -13,10 +20,10 @@ const Navbar = () => {
       </div>
       <div className="mid-cont">
         <ul className="list-mid-cont">
-          <li>About Me</li>
-          <li>Skills</li>
-          <li>Project</li>
-          <li>Contact Me</li>
+          <li onClick={() => handleScrollToSection("about")}>About Me</li>
+          <li onClick={() => handleScrollToSection("skills")}>Skills</li>
+          <li onClick={() => handleScrollToSection("projects")}>Projects</li>
+          <li onClick={() => handleScrollToSection("contact")}>Contact Me</li>
         </ul>
       </div>
       <div className="right-cont">

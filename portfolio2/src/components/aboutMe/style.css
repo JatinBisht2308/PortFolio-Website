@@ -1,0 +1,78 @@
+/* General container styling */
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+  }
+  
+  /* Content wrapper */
+  .about-content {
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    border-radius: 10px;
+    gap: 2rem;
+  }
+  
+  /* Image container */
+  .about-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-image img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+  }
+  
+  /* Text container */
+  .about-text {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  /* Heading styles */
+  .about-text h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .about-text h2 .highlight {
+    color: #007bff;
+  }
+  
+  /* Paragraph styles */
+  .about-text p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    .about-content {
+      flex-direction: column;
+      padding: 1rem;
+      gap: 1rem;
+    }
+  
+    .about-image img {
+      max-width: 200px;
+    }
+  
+    .about-text h2 {
+      font-size: 1.5rem;
+    }
+  
+    .about-text p {
+      font-size: 0.9rem;
+    }
+  }
+  
