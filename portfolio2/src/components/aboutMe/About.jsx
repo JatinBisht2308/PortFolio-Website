@@ -10,30 +10,24 @@ const About = () => {
           <img src={ProfileImage} alt="Profile Illustration" />
         </div>
         <div className="about-text">
-          <h2>
+          <p className="about-title">
             About <span className="highlight">Me</span>
-          </h2>
+          </p>
           <p>
             I'm a dedicated full-stack developer specializing in modern web
-            technologies like React.js, Node.js, and Next.js. With a strong
-            foundation in problem-solving, database management, and user-focused
-            design, I aim to craft digital products that deliver seamless user
+            technologies like React.js, Node.js, and Next.js. I aim to craft digital products that deliver seamless user
             experiences. I bring expertise in building scalable applications,
             integrating APIs, and implementing features like scheduling systems
             and payment gateways.
           </p>
           <p>
-
-            I began my journey as a developer during my time at DIT University,
-            where I earned a Bachelor's degree in Computer Science and
-            Engineering. My professional experience includes working at Kiikan
+           My professional experience includes working at Kiikan
             Analytics, where I engineered productivity tools like Waply,
             integrating Google Calendar APIs, and implementing Stripe-based
             monetization strategies. Previously, as a Software Engineer at Spur
             Fit, I contributed to full-stack development, collaborating on UI/UX
             design and deploying real-time features for a large-scale MERN
-            codebase. I also interned at Koders, where I developed e-commerce
-            and portfolio websites using React, Firebase, and JavaScript
+            codebase.
           </p>
           <p>
         
@@ -41,9 +35,7 @@ const About = () => {
             recognition as a contributor to GirlScript Summer of Code and
             securing a top position in the Vihaan 6.0 Hackathon. I also enjoy
             exploring cutting-edge technologies and engaging with tech
-            communities on platforms like GitHub and LinkedIn. When I’m not
-            working, you’ll find me designing innovative solutions or sharing
-            insights about modern web development and problem-solving.
+            communities on platforms like GitHub and LinkedIn. 
           </p>
         </div>
       </div>

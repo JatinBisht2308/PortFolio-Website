@@ -1,78 +1,80 @@
 /* General container styling */
 .about-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f9f9f9;
-  }
-  
-  /* Content wrapper */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+}
+
+/* Content wrapper */
+.about-content {
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+/* Image container */
+.about-image {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Text container */
+.about-text {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+}
+
+/* Heading styles */
+.about-title {
+  font-size: 48px !important;
+  color: #333 !important;
+  line-height: 0 !important;
+}
+
+.about-title .highlight {
+  color: #000 !important;
+  font-weight: 700 !important;
+}
+
+/* Paragraph styles */
+.about-text p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
   .about-content {
-    display: flex;
-    flex-direction: row;
-    max-width: 1200px;
-    border-radius: 10px;
-    gap: 2rem;
-  }
-  
-  /* Image container */
-  .about-image {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .about-image img {
-    width: 100%;
-    max-width: 300px;
-    border-radius: 10px;
-  }
-  
-  /* Text container */
-  .about-text {
-    flex: 2;
-    display: flex;
     flex-direction: column;
+    padding: 1rem;
     gap: 1rem;
   }
-  
-  /* Heading styles */
+
+  .about-image img {
+    max-width: 200px;
+  }
+
   .about-text h2 {
-    font-size: 2rem;
-    font-weight: bold;
-    color: #333;
+    font-size: 1.5rem;
   }
-  
-  .about-text h2 .highlight {
-    color: #007bff;
-  }
-  
-  /* Paragraph styles */
+
   .about-text p {
-    font-size: 1rem;
-    color: #555;
-    line-height: 1.6;
+    font-size: 0.9rem;
   }
-  
-  /* Mobile responsiveness */
-  @media (max-width: 768px) {
-    .about-content {
-      flex-direction: column;
-      padding: 1rem;
-      gap: 1rem;
-    }
-  
-    .about-image img {
-      max-width: 200px;
-    }
-  
-    .about-text h2 {
-      font-size: 1.5rem;
-    }
-  
-    .about-text p {
-      font-size: 0.9rem;
-    }
-  }
-  
+}
